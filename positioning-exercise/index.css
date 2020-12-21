@@ -1,0 +1,41 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  body {
+    height: 200vh;
+  }
+ 
+  .wrapper {
+    margin: 50px;
+    position: relative;
+  }
+ 
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+ 
+  .box:nth-child(1) {
+    background-color: blue;
+    position: relative;
+    right: 100px;
+
+  }
+ 
+  .box:nth-child(2) {
+    background-color: lightcoral;
+    position: absolute;
+    top: 30px;
+    left:100px;
+  }
+ 
+  .box:nth-child(3) {
+    background-color: rgb(10, 53, 53);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+  }

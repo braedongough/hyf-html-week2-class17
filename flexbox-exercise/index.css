@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .hero-image {
+    background-image: url("https://www.hackyourfuture.dk/static/hero.jpg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .blue-logo {
+    width: 100px;
+  }
+ 
+  .white-logo {
+    width: 200px;
+  }
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+  }
+
+
+  nav {
+      width: 300px;
+  }
